@@ -1,5 +1,5 @@
 function produceDrivingRange(range) {
   return function(distance) {
-    distance > range ? true: false
+      return (distance > range ? false : true)
   }
 }
