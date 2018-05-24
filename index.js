@@ -8,3 +8,10 @@ function produceDrivingRange(range) {
   }
 
 }
+
+
+function produceTipCalculator(tipPercent) {
+  return function(total) {
+    return total * tipPercent
+  }
+}
